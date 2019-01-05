@@ -1,0 +1,369 @@
+*{margin:0;padding:0}
+.row::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.tab1{
+    font-size:12px;
+    color:#868686;
+}
+.tab2{
+    font-size: 16px;
+    color:#e8ffff;
+}
+.tab3{
+    font-size: 18px;
+    color:#2a2730;
+}
+.tab4{
+    font-size: 12px;
+    color:#898c9b;
+}
+.tab5{
+    font-size: 54px;
+    color:#303030;
+    padding-top:40px;
+}
+.tab6-1{
+    font-size:40px;
+    color:#ff4a00;
+}
+.tab7-1{
+    font-size: 25px;
+    color:#ff4a00;
+}
+.tab8{
+    font-size:13px;
+    color:#666560;
+    padding-top:10px;
+}
+.tab9{
+    font-size:54px;
+    color:#543521;
+    padding-top:60px;
+}
+.tab10{
+    font-size: 13px;
+    color:#543521;
+    padding-top:10px;
+}
+.tab11{
+    font-size:54px;
+    color:#ffffff;
+    padding-top:195px;
+}
+.tab12{
+    font-size:110px;
+    color:#ffffff;
+    padding-top:25px;
+}
+.tab13{
+    font-size:28px;
+    color:#ffffff;
+    padding-top:15px;
+}
+.tab14{
+    font-size:52px;
+    color:#333;
+    padding-top:60px;
+}
+.tab15{
+    font-size:24px;
+    color:#8f8ea0;
+    padding-top:10px;
+}
+.tab16{
+    font-size:25px;
+    color:#333;
+    padding-top:10px;
+}
+.tab17{
+    font-size:20px;
+    color:#ff4a00;
+    padding-top:20px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none;
+}
+.Top{
+    width:100%;
+    background:#fafafa;
+}
+.top{
+    width:1024px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.top li{
+    list-style: none;
+    float:left;
+}
+.top a{
+    text-decoration: none;
+}
+.top-left{
+    float:left;
+}
+.top-right{
+    float:right;
+}
+
+.head{
+    width:1240px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    position: relative;
+}
+.head-top{
+    height:50px;
+    width:125px;
+    position: absolute;
+    right:0px;
+    top:4px;
+}
+.head-top img{
+    position: absolute;
+    top:2px;
+    left:2px;
+}
+.head-top p{
+    position: absolute;
+    top:2px;
+    left:19px;
+}
+.head-bottom{
+    width:425px;
+    height:42px;
+    position: absolute;
+    top:31px;
+    right:95px;
+}
+.head-bottom>:first-child{
+    position: absolute;
+    width:380px;
+    height:42px;
+    outline: none;
+}
+.head-bottom>:last-child{
+    position: absolute;
+    width:42px;
+    height:46px;
+    top:0px;
+    right:42px;
+    outline: none;
+    background: white;
+}
+.btn{
+    width:116px;
+    height:46px;
+    background:#ffdb3d;
+    padding-left:15px;
+    position: absolute;
+    top:31px;
+    right:11px;
+    outline: none;
+    border:none;
+}
+.btn img{
+    position: absolute;
+    top:15px;
+    left:26px;
+}
+
+.nav{
+    width:1240px;
+    height:50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.nav-left{
+    width:225px;
+    height: 50px;
+    background:#ff4a00;
+    float:left;
+    line-height: 50px;
+    padding-left:20px;
+}
+.nav-right{
+    width:975px;
+    height:50px;
+    background:#404145;
+    float:left;
+    line-height: 50px;
+    padding-left:20px;
+}
+.nav-right li{
+    float:left;
+    width:10%;
+}
+
+.nav1{
+    width:1240px;
+    height:64px;
+    margin-left:auto;
+    margin-right:auto;
+    position: relative;
+    border-bottom:1px solid #f1f1f1;
+}
+.nav1-left{
+    width:245px;
+    height:64px;
+    line-height:64px;
+    text-align: center;
+}
+.nav1-right{
+    width:670px;
+    height:64px;
+    line-height: 64px;
+    text-align: center;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+.nav1-right li{
+    float:left;
+    width:60px;
+}
+.nav1-right button{
+    display:block;
+    width:120px;
+    height:30px;
+    background:#ff4a00;
+    color:white;
+    outline: none;
+    border:none;
+    position: absolute;
+    top:16px;
+    right:2px;
+}
+
+.container1{
+    width:1240px;
+    height:917px;
+    margin-left:auto;
+    margin-right:auto;
+    background:url("images/hezi.png") no-repeat center center;
+    position: relative;
+}
+.container1-left{
+    width:119px;
+    height:78px;
+    padding-left:106px;
+    padding-top:30px;
+}
+.container1-right{
+    width:312px;
+    height:279px;
+    position: absolute;
+    top:117px;
+    left:445px;
+    text-align: center;
+    border: none;
+}
+.container1-right button{
+    display:block;
+    width:147px;
+    height:46px;
+    background: #ff4a00;
+    color:white;
+    border-radius: 4px;
+    outline: none;
+    border:none;
+    position: absolute;
+    top:212px;
+    left:64px;
+}
+.container2{
+    width:1240px;
+    height:984px;
+    margin-left:auto;
+    margin-right:auto;
+    background:url("images/hz-24.jpg") no-repeat center center;
+    text-align: center;
+}
+.container3{
+    width:1240px;
+    height:1156px;
+    margin-left:auto;
+    margin-right:auto;
+    background: url("images/hz-25.jpg") no-repeat center center;
+    text-align: center;
+}
+.container4{
+    width:1240px;
+    height:1260px;
+    margin-left:auto;
+    margin-right:auto;
+    background: url("images/hz-4.jpg") no-repeat center center;
+    text-align: center;
+}
+.container5{
+    width:1240px;
+    height:970px;
+    margin-left:auto;
+    margin-right:auto;
+    background: url("images/jiating.png") no-repeat center center;
+    text-align: center;
+}
+.container6{
+    width:1240px;
+    height:700px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    position: relative;
+}
+.container6 button{
+    display:block;
+    width:120px;
+    height:30px;
+    background:#ff4a00;
+    color:white;
+    outline: none;
+    border:none;
+    position: absolute;
+    bottom:62px;
+    right:552px;
+}
+.container7{
+    width:1240px;
+    height:220px;
+    margin-left:auto;
+    margin-right:auto;
+    border-bottom:1px solid #dfdfdf;
+}
+.container7 div{
+    width:20%;
+    height:170px;
+    margin-left:-1px;
+    float:left;
+    text-align: center;
+    padding-top:50px;
+}
+.container7>div:not(:first-child){
+    border-left:1px solid #dfdfdf;
+}
+.container8{
+    width:1240px;
+    height:420px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+.container8 div{
+    width:33.333333%;
+    height:420px;
+    text-align: center;
+    float:left;   
+}
+.container8>div:not(:first-child){
+    border-left:1px solid #dfdfdf; 
+    margin-right:-1px;
+}

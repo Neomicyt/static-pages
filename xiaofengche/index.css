@@ -1,0 +1,229 @@
+*{margin:0;padding:0}
+.row::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+@media(max-width:768px){
+    .navbar-brand{
+        width:122px;
+        height: 60px;
+        background:url("images/logo_min.png") no-repeat center center;
+        background-size: contain;
+    }
+    .tab1{
+        font-size: 25px;
+        color:#ffffff;
+        display:block;
+        padding-bottom:134px;
+    }
+}
+ @media(min-width:769px){
+    .navbar-brand{
+        width: 300px;
+        height: 82px;
+        background: url("images/logo.png") no-repeat center center; 
+    }
+    .tab1{
+        font-size: 40px;
+        color:#ffffff;
+        display:block;
+        padding-bottom:134px;
+    }
+}
+@media(min-width: 992px) {
+    .col-md-20 {
+        width: 20%;
+    }
+}
+.tab2{
+    font-size:28px;
+    color:#00b3fd;
+    text-align: center;
+}
+.tab3{
+    font-size:22px;
+    color:#333333;
+    text-align:center;
+}
+.tab4{
+    font-size:13px;
+    color:#333333;
+    text-align: center;
+}
+.tab5{
+    font-size:18px;
+    color:#333333;
+}
+.tab6{
+    font-size:13px;
+    color:#a0a9b2;
+}
+.tab7{
+    font-size:14px;
+    color:white;
+    padding-top:30px;
+    text-align: center;
+}
+.tab8{
+    font-size:14px;
+    color:white;
+    text-align: center;
+}
+.tab9{
+    font-size:14px;
+    color:white;
+    padding-top:30px;
+    text-align: center;
+}
+.tab10{
+    font-size:28px;
+    color:white;
+    text-align: center;
+}
+.tab11{
+    font-size:13px;
+    color:#a0a9b2;
+    text-align: center;
+}
+.line{
+    width:80px;
+    height:2px;
+    background:#00b3fd;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.navbar-nav a{
+    position: relative;
+}
+.ii{
+    background:url("images/quickmark.png") no-repeat center center #fff;
+    width:250px;
+    height:250px;
+    position:absolute;
+    display:none;
+    top:60px;
+    left:-208px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, .1);
+}
+
+.navbar {
+    background-color: #fff;
+    border: none;
+    margin-bottom: 0;
+}
+li{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar-default .navbar-nav > li:hover {
+    background: #00b3fd;
+    color: #fff;
+}
+.navbar-default .navbar-nav > li > a {
+    line-height: 84px;
+    text-decoration: none;
+    color: inherit !important;
+}
+
+.fc-title {
+    margin-top: -400px;
+}
+.fc-banner {
+    height: 767px;
+    background: url("images/ppt_bg.jpg") no-repeat center center;
+    
+}
+.fc-banner::before {
+    display: table;
+    content: "";
+}
+#carousel-id {
+    margin-top: 287px;
+}
+#carousel-id img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.container2-top{
+    margin-left:auto;
+    margin-right:auto;
+    height:175px;
+    padding-top:60px;
+}
+.container2-bottom{
+    margin-left:auto;
+    margin-right:auto;
+}
+.container2-bottom>div>img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+.container3-top{
+    margin-left:auto;
+    margin-right:auto;
+    height:175px;
+    padding-top:60px;
+    background: #f1f5f8;
+}
+.container3{
+    background:#f1f5f8;
+    padding-bottom:40px;
+}
+.container3-bottom-content{
+    background: #ffffff;
+    padding:10px 0 0 10px;
+    margin-bottom:10px;
+}
+.container3-bottom-content img{
+    width:100%;
+}
+.container4{
+    padding-bottom:70px;
+}
+.container4-content{
+    background:#f1f5f8;
+}
+.container4-content img{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    background:#f1f5f8;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+img:hover{
+    opacity: 0.5;
+}
+.container5-top-nav{
+    margin-left:auto;
+    margin-right:auto;
+    background:url(images/about_bg.jpg)no-repeat center center;
+    height:640px;
+    padding-top:60px;
+}
+.container5-top{
+    margin-left:auto;
+    margin-right:auto;
+}
+.container6-top{
+    background: #626160 url("images/content_bg.png")no-repeat center center;
+}
+.container6-top img{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+.container6-bottom{
+    padding-top:21px;
+}
+.footer{
+    height:60px;
+    line-height: 60px;
+}

@@ -1,0 +1,9 @@
+$(function(){
+    $("#loo").click(function(event){
+        $("#ii").toggle();
+        event.stopPropagation();
+    })
+    $("body").click(function(){
+        $("#ii").hide();
+    })
+})

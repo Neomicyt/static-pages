@@ -1,0 +1,203 @@
+*{margin:0;padding:0}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.row::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.tab1{
+    font-size: 12px;
+    color:#818c90;
+}
+.tab2{
+    font-size:18px;
+    color:#333;
+}
+.tab3{
+    font-size:12px;
+    color:#313236;
+    padding-top:15px;
+}
+.tab4{
+    font-size:16px;
+    color:#313236;
+    padding-top:15px;
+}
+.container3 .tab5{
+    font-size:16px !important;
+    color:#313236 !important;
+    padding-left:20px !important;
+}
+.container3 .tab6{
+    font-size:12px;
+    color:#849791;
+    padding-left:20px;
+}
+.tab7{
+    font-size:18px;
+    color:#fffcff;
+    padding-top:20px;
+}
+.tab8{
+    font-size:12px;
+    color:#f2fff7;
+    padding-top:10px;
+}
+.nav1{
+    width:1240px;
+    height:36px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height:36px;
+}
+.nav1 li{
+    float:left;
+}
+.nav1-pic{
+    width:1240px;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-top{
+    width:1240px;
+    height:60px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height:60px;
+    border-bottom:1px solid #dfdfdf;
+    position: relative;
+}
+.container-top li{
+    display: block;
+    width:30px;
+    height:20px;
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+.container1{
+    width:1240px;
+    height:240px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.container1 div{
+    width:25%;
+    height:240px;
+    float:left;
+}
+.container2{
+    width:1240px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fafafa;
+    margin-top:20px;
+    margin-bottom:4px;
+}
+.container2 li{
+    display: block;
+    width:25%;
+    height:120px;
+    float:left;
+    padding-top:30px;
+}
+.container2>li:not(:first-child){
+    border-left:3px solid #ffffff;
+    margin-right:-3px;
+}
+.container2-bottom{
+    width:1240px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background: #fafafa;
+    margin-bottom:20px;
+    position: relative;
+}
+.container2-bottom input{
+    width:160px;
+    height:46px;
+}
+.container2-bottom button{
+    width:42px;
+    height:46px;
+    background: url("images/fangdajing.png") no-repeat center center #fafafa;
+    position: absolute;
+    top:30px;
+    right:29px;
+    outline: none;
+}
+.container2-bottom li{
+    display: block;
+    width:25%;
+    height:120px;
+    float:left;
+    padding-top:30px;
+}
+.container2-bottom>li:not(:first-child){
+    border-left:3px solid #ffffff;
+    margin-right:-3px;
+}
+
+.container3{
+    width:1240px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    margin-bottom:40px;
+    border-bottom:1px solid #dfdfdf;
+}
+.container3 ul{
+    display: block;
+    width:16.66666%;
+    height:160px;
+    float:left;
+}
+.container3>ul:not(:first-child){
+    border-left:1px solid #dfdfdf;
+    margin-right:-1px;
+}
+.container3 a:hover{
+    color:red;
+}
+
+.container4{
+    width:1240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+    margin-bottom:40px;
+    text-align: center;
+}
+.container4 img{
+    vertical-align: bottom;
+    width: 100%;
+    height:360px;
+}
+.container4>div{
+    width:25%;
+    /* width:300px; */
+    /* height:360px; */
+    float:left;
+}
+.container4>div:not(:first-child){
+    padding-left: 10px;
+}
+.mini{
+    background: #333333;
+    height:95px;
+}
+div{
+    box-sizing: border-box;
+}
